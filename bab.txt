@@ -1,0 +1,21 @@
+list bab
+LATAR BELAKANG
+Azure ML Studio
+	Praprocessing
+		Data 20172021.csv
+		Data grammySongs.csv
+Front end app
+	Python
+		Streamlit
+		Pandas
+		Matplotlib
+Desain
+	Desain Code
+	Desain Website
+Azure App Service
+	Pembuatan
+	Deploying
+		Docker
+Dashboard Monitoring
+Dokumentasi Hasil
+

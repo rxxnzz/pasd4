@@ -1,0 +1,52 @@
+halaman pertama
+isi :
+greeting tambahin logo pada select box
+Pilih [lagu terbaik, artist terbaik memenangkan grammy, artis yang masih eksis dari tahun 2017-2021]
+
+lagu terbaik
+isi:
+	pilih tahun 2017-2021(select slider)
+	kembali kehalaman sebelumnya
+
+sesudahnya 
+isi :
+	pilih genre atau artis(radio)
+
+	untuk artis
+	isi :
+		pilih artis(select box)
+		tampilkan lagu
+	untuk genre
+	isi:
+		pilih genre(multiple select)
+		tampilkan lagu
+
+	kembali kehalaman sebelumnya
+
+
+artis terbaik memenangkan grammy
+isi:
+	visual pemenang grammy terbanyak
+	pilih tahun (select slider)
+	kembali kehalaman sebelumnya
+
+sesudahnya:
+	pilih genre(multiple select)
+	tampilkan hasil
+	kembali kehalaman sebelumnya
+
+
+artis yang masih eksis ditahun 2017-2021
+isi:
+	bar chart
+	kembali kehalaman sebelumnya
+
+
+files
+1. lagu top tahun 2017-2021
+2. grammy award
+
+files py
+main
+laguterbaik
+grammy
