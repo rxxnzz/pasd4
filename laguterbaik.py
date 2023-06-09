@@ -12,7 +12,7 @@ def memilih():
     selected_year = st.slider("Pilih Tahun", 2017, 2021)
 
     # Membuat pilihan antara Nama atau Genre
-    selection = st.radio("Pilih Kategori", options=["Nama", "Genre"])
+    selection = st.radio("Pilih Berdasarkan :", options=["Nama", "Genre"])
 
     if selection == "Genre":
         # Mendapatkan genre yang unik dari data
