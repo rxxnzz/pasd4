@@ -6,7 +6,7 @@ def memilih():
 
     # Membaca file CSV
     df = pd.read_csv('20172021.csv')
-    df = df.drop_duplicates(subset=['Years', 'Artist'])
+    df = df.drop_duplicates(subset=['Years', 'Track Name'])
     
     # Membuat slide bar untuk memilih tahun
     selected_year = st.slider("Pilih Tahun", 2017, 2021)
