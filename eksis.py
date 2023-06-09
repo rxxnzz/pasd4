@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 def splitdata():
     # Membaca data dari file CSV
     df = pd.read_csv("20172021.csv")
-    df = df.drop_duplicates(subset=['Years', 'Artist'])
+    df = df.drop_duplicates(subset=['Years', 'Track Name'])
 
     name_counts = df.groupby(["Genre", "Years"]).size().reset_index(name="Count")
     # Membuat Selectbox untuk memilih nama
